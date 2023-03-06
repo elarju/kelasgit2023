@@ -12,3 +12,13 @@ for i in range(n+1):
     continue
   else:
     print(i)
+	
+#Soal no 3
+print("Program mengecek bilangan ganjil 1 hingga n")
+n = int(input("Masukkan bilangan bulat: "))
+def cek_ganjil(bilangan):
+    if bilangan % 2 != 0:
+        print(f"{bilangan} adalah bilangan ganjil")
+
+for i in range(n):
+    cek_ganjil(i+1)
